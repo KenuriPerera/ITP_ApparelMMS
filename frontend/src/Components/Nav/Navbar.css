@@ -1,0 +1,26 @@
+.navbar-title {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  align-items: flex-start; /* Align links to the left */
+}
+
+.navbar-links button {
+  width: 100%; /* Make buttons take full width */
+  text-align: left; /* Align text to the left */
+}
+
+.content {
+  flex: 1; /* This allows the content to take up the remaining space */
+  padding: 20px; /* Add some padding for aesthetics */
+}
+
+.navbar {
+  width: 200px; /* Set a fixed width for the navbar */
+  height: 100vh; /* Make the navbar full height */
+  position: fixed; /* Fix it on the left side */
+}
